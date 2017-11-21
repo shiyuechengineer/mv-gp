@@ -2,8 +2,8 @@
 - Run in Python 3
 
 - Install both requests & Meraki Dashboard API Python modules:
-`pip[3] install requests [--upgrade]`
-`pip[3] install meraki [--upgrade]`
+- *pip[3] install requests [--upgrade]*
+- *pip[3] install meraki [--upgrade]*
 
 # DESCRIPTION
 This script finds all MV cameras with a specified tag, and then iterates
