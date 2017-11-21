@@ -12,6 +12,7 @@ pip[3] install meraki [--upgrade]
 This script finds all MV cameras with a specified tag, and then iterates
 through all networks to apply an exisitng group policy (enforced by the MX)
 to the applicable cameras as client devices.
+Maintained in GitHub @ https://github.com/shiyuechengineer/mv-gp
 
 === USAGE ===
 python mv_gp.py -k <api_key> -o <org_id> -t <tag> -p <policy> [-m <mode>]
